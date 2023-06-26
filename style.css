@@ -1,0 +1,51 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  #task-count {
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  .delete-button:hover{
+    visibility: visible;
+  }
